@@ -8,13 +8,13 @@ This project aims to create a scalable and well-organized API for managing Pokem
 - Constraints: Ensure no duplicate names.
 - Error Handling: Return an error if a duplicate name is detected.
 ### 2. GET /pokemon
-- Description: Retrieve a list of Pokemon with filtering and sorting.
+- Description: Get a list of Pokemon with filtering and sorting.
 - Parameters:
   - type (optional): Filter by Pokemon type.
   - sort (optional): Sort by name.
   - sortOrder (optional): Sort order, either asc (ascending) or desc (descending).
 ### 3. GET /pokemon/{pokemonId}
-- Description: Retrieve Pokemon details by ID.
+- Description: Get Pokemon details by ID.
 ### 4. PUT /pokemon/{pokemonId}
 - Description: Update Pokemon details by ID and return the updated data.
 ### 5. DELETE /pokemon/{pokemonId}
