@@ -16,7 +16,7 @@ namespace Pokemon.Controllers {
         [Route("")]
         public async Task<IActionResult> GetAllPokemons()
         {
-            Console.WriteLine("test");
+
             return Ok("");
         }
 
