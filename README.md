@@ -23,7 +23,7 @@ This project aims to create a scalable and well-organized API for managing Pokem
 ## Project Requirements
 ### Setup
 - Scalability: Ensure the API is scalable and well-organized.
-- Database: Use any database of your choosing.
+- Database: Use SqlServer for the database, prepare the migration in a way that easy to launch the project
 - Authentication: Not required.
 ### Data
 - Database Table: Create a table named Pokemons with the following columns:
